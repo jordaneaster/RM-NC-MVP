@@ -13,12 +13,6 @@ export default function Home() {
         >
           Login
         </Link>
-        <Link 
-          href="/items"
-          className="bg-gray-200 text-gray-800 px-6 py-3 rounded hover:bg-gray-300"
-        >
-          View Items
-        </Link>
       </div>
     </div>
   );
