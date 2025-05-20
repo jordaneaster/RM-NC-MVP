@@ -14,7 +14,7 @@ export default function LoginPage() {
     const autoLogin = async () => {
       try {
         await login();
-        router.push('/');
+        router.push('/onboarding');
       } catch (error) {
         console.error('Auto-login error:', error);
       } finally {
