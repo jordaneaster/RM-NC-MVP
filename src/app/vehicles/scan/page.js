@@ -254,8 +254,8 @@ export default function ScanQRCodePage() {
     <div className="container mx-auto px-4 py-8">
       {/* Navigation Tabs */}
       <div className="flex mb-6 border-b">
-        <Link href="/routes" className="px-4 py-2 hover:text-blue-500">
-          Routes
+        <Link href="/onboarding" className="px-4 py-2 hover:text-blue-500">
+          Customer Onboarding
         </Link>
         <Link href="/vehicles" className="px-4 py-2 hover:text-blue-500">
           Vehicle Inventory
