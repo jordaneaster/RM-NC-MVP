@@ -14,7 +14,7 @@ export default function LoginPage() {
     const autoLogin = async () => {
       try {
         await login();
-        router.push('/home');
+        router.push('/');
       } catch (error) {
         console.error('Auto-login error:', error);
       } finally {
@@ -37,7 +37,7 @@ export default function LoginPage() {
         {!isLoading && (
           <div className="flex justify-center">
             <button
-              onClick={() => router.push('/home')}
+              onClick={() => router.push('/')}
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               Go to Application
