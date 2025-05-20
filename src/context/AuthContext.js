@@ -35,7 +35,7 @@ export const AuthProvider = ({ children }) => {
     // Set hardcoded token and user without API call
     localStorage.setItem('token', hardcodedToken);
     setUser(hardcodedUser);
-    router.push('/');
+    router.push('/onboarding');
   };
 
   const logout = () => {

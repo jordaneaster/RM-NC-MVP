@@ -37,7 +37,7 @@ export default function LoginPage() {
         {!isLoading && (
           <div className="flex justify-center">
             <button
-              onClick={() => router.push('/')}
+              onClick={() => router.push('/onboarding')}
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               Go to Application
