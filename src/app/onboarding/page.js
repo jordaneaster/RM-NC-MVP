@@ -223,14 +223,14 @@ export default function OnboardingPage() {
     <div className="container mx-auto px-4 py-8">
       {/* Navigation Tabs */}
       <div className="flex mb-6 border-b">
-        <Link href="/routes" className="px-4 py-2 hover:text-blue-500">
-          Routes
+        <Link href="/onboarding" className="px-4 py-2 border-b-2 border-blue-500 text-blue-500 font-semibold">
+          Onboarding
         </Link>
         <Link href="/vehicles" className="px-4 py-2 hover:text-blue-500">
           Vehicle Inventory
         </Link>
-        <Link href="/onboarding" className="px-4 py-2 border-b-2 border-blue-500 text-blue-500 font-semibold">
-          Onboarding
+        <Link href="/routes" className="px-4 py-2 hover:text-blue-500">
+          Routes
         </Link>
       </div>
       
